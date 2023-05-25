@@ -1,0 +1,56 @@
+2023.05.25 13:48:09 INFO  Started: Metals version 0.11.12 in workspace 'E:\TE Engineering\TE_COMP\DSBDA Lab\Scala' for client Visual Studio Code 1.78.2.
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\.metals\metals (H2 2.1)
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 25, 2023 1:48:09 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 25, 2023 1:48:10 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 25, 2023 1:48:10 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 25, 2023 1:48:10 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 25, 2023 1:48:10 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.063s)
+2023.05.25 13:48:10 INFO  time: initialize in 0.82s
+2023.05.25 13:48:12 WARN  Build server is not auto-connectable.
+2023.05.25 13:48:12 WARN  no build tool detected in workspace 'E:\TE Engineering\TE_COMP\DSBDA Lab\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.25 13:48:12 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:48:12 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:48:25 INFO  no build target found for E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.25 13:48:27 INFO  time: code lens generation in 13s
+2023.05.25 13:48:27 INFO  time: code lens generation in 6.13s
+2023.05.25 13:48:49 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+2023.05.25 13:48:55 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:49:03 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:49:24 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:49:25 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:49:27 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:50:46 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:50:51 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:50:56 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:50:58 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:51:05 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:51:08 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:51:13 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:51:18 WARN  no build target for: E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\assignment_13.scala
+2023.05.25 13:53:24 INFO  Shutting down server
+2023.05.25 13:53:24 INFO  shutting down Metals
+2023.05.25 13:53:24 INFO  Exiting server

@@ -1,0 +1,108 @@
+Assignment 1
+
+Pandas: Pandas is important python library for data analysis and data science
+Important functions
+
+.read_csv(): used to read csv file and store it into pandas dataframe
+
+dataframe is a 2D datastructure with columns of different data types, similar to SQL table or spreadsheet
+
+.head(n): it is used to return the first n rows of a dataset
+
+.describe(): used to generate statistics of the dataset and gives central tendencies, etc
+
+loc[:] : used to slice the dataset
+
+data_1.loc[0:4, ['Name', 'Age', 'State']]
+Output:
+
+Name	Age	State
+0	Alam	29	Madhya Pradesh
+1	Rohit	23	Delhi
+2	Bimla	35	Haryana
+3	Rahul	25	West Bengal
+4	Chaman	32	Tamil Nadu
+
+df.iloc[0]          # Accessing a row by index
+df.iloc[0:3]        # Accessing multiple rows by index range
+df.loc[0, 'Name']   # Accessing a specific element by row index and column name
+
+value_counts(): returns the number of occurences of a column
+
+data_1['State'].value_counts()
+Output:
+
+Haryana           3
+Delhi             2
+West Bengal       1
+Tamil Nadu        1
+Bihar             1
+Madhya Pradesh    1
+
+.shape: returns the number of rows and columns 
+
+.dtypes: returns the datatype of each column
+
+.isnull(): returns true for missing values
+
+df.isnull().sum(): return sum of no. of null values in each column
+
+df.fillna(method='bfill', inplace=True): used to fill null values with next non-null column values
+
+df.fillna(method='ffill', inplace=True): used to fill null values with previous non-null column values
+
+inplace=True is an optional parameter that modifies the DataFrame in place, meaning it will directly modify the existing DataFrame rather than creating a new one. If inplace=False or omitted, the method will return a new DataFrame with the filled values.
+
+df['sepal_length']=df['sepal_length'].astype(int) //converted float datatype into int
+df.dtypes
+
+The sklearn.preprocessing module from scikit-learn provides various functions for preprocessing data before applying machine learning algorithms. It offers several methods for scaling, transforming, encoding, and normalizing data.
+from sklearn import preprocessing
+le = preprocessing.LabelEncoder()
+df['species']=le.fit_transform(df['species'])
+
+df refers to the entire pandas DataFrame object. It represents the full dataset or table containing all rows and columns of data.
+
+df.head() is a method in pandas DataFrame that returns the first few rows of the DataFrame. 
+
+df.tail()
+
+
+Assignment 2
+
+matplotlib: imp plotting library for plots and visualisations
+
+outliers: outliers in a dateset refer to data points that significantly deviate from the majority of other data points. 
+
+How to identify outliers?
+Plotting the data can often reveal outliers visually. Box plots, scatter plots, or histograms can help identify data points that are far away from the bulk of the data.
+Statistical techniques such as z-score or modified z-score can be used to identify outliers based on their deviation from the mean or median. Data points with z-scores above a certain threshold  can be considered outliers.
+
+Standard Deviation: it tells how much the values will deviate from the mean
+
+z = (x - μ) / σ
+
+z is the z-score.
+x is the individual data point.
+μ is the mean of the distribution.
+σ is the standard deviation of the distribution.
+
+The z-score tells you how many standard deviations a data point is above or below the mean. A positive z-score indicates that the data point is above the mean, while a negative z-score indicates that the data point is below the mean.
+
+A histogram represents the distribution of data by dividing it into intervals (bins) along the x-axis and displaying the frequency or count of data points falling into each bin on the y-axis.
+
+
+A histogram is a graph showing frequency distributions.
+
+It is a graph showing the number of observations within each given interval.
+
+Assignment_5
+
+Seaborn: Built on top of matplotlib
+
+
+
+
+
+
+

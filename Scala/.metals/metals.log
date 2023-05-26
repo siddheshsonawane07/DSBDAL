@@ -54,3 +54,19 @@ Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1
 2023.05.25 13:53:24 INFO  Shutting down server
 2023.05.25 13:53:24 INFO  shutting down Metals
 2023.05.25 13:53:24 INFO  Exiting server
+2023.05.25 22:18:17 INFO  Started: Metals version 0.11.12 in workspace 'E:\TE Engineering\TE_COMP\DSBDA Lab\Scala' for client Visual Studio Code 1.78.2.
+May 25, 2023 10:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 10:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 10:18:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 10:18:18 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\TE Engineering\TE_COMP\DSBDA Lab\Scala\.metals\metals (H2 2.1)
+May 25, 2023 10:18:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.084s)
+May 25, 2023 10:18:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 25, 2023 10:18:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.25 22:18:19 INFO  time: initialize in 2.88s
